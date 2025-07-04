@@ -6,53 +6,53 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "1. Ao fazer compras no supermercado, qual das seguintes atitudes melhor te descreve?",
+        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
         alternativas: [
             {
-                texto: " A) Comprador(a) Consciente",
-                afirmacao: "Você costuma fazer uma lista antes de sair de casa e se esforça para comprar apenas o necessário, evitando promoções que te levariam a adquirir mais do que realmente precisa. Sua despensa e geladeira são bem organizadas e você sabe o que tem."
-            },
-            {
-                texto: "B) Comprador(a) Impulsivo(a)",
-                afirmacao: "Você se sente atraído(a) por ofertas e muitas vezes compra mais do que planejava, especialmente itens que talvez não use antes que estraguem. Sua geladeira e despensa podem ter alguns tesouros escondidos que você esqueceu."
-            },
-        ]
-    },
-    {
-        enunciado: "2. Sobras de refeições são um desafio para você?",
-        alternativas: [
-            {
-                texto: " A) Mestre das Sobras",
-                afirmacao: "Você adora transformar sobras em novas e deliciosas refeições, ou as congela para consumo posterior. Para você, nada se perde, tudo se transforma!"
-            },
-            {
-                texto: "B) Despreocupado(a) com Sobras",
-                afirmacao: "Você adora transformar sobras em novas e deliciosas refeições, ou as congela para consumo posterior. Para você, nada se perde, tudo se transforma!"
-            }
-        ]
-    },
-    {
-        enunciado: "3. Quando percebe que um alimento está próximo da validade, qual é sua reação?",
-        alternativas: [
-            {
-                texto: " A) Otimizador(a) de Alimentos",
-                afirmacao: " Você imediatamente pensa em formas de usar aquele alimento, seja cozinhando-o, congelando-o ou oferecendo-o a alguém que possa consumi-lo a tempo."
-            },
-            {
-                texto: "B) Descartador(a) Rápido(a)",
-                afirmacao: "Você tende a jogar fora alimentos que estão perto do vencimento por precaução, mesmo que ainda pareçam bons para consumo."
-            }
-        ]
-    },
-    {
-        enunciado: "4. Como você lida com frutas, legumes e verduras que não estão perfeitos esteticamente?",
-        alternativas: [
-            {
-                texto: "A) Consumidor(a) Sem Preconceito",
+                texto: "Isso é assustador!",
                 afirmacao: "afirmação"
             },
             {
-                texto: " B) Apreciador(a) da Perfeição",
+                texto: "Isso é maravilhoso!",
+                afirmacao: "afirmação"
+            }
+        ]
+    },
+    {
+        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        alternativas: [
+            {
+                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                afirmacao: "afirmação"
+            },
+            {
+                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                afirmacao: "afirmação"
+            }
+        ]
+    },
+    {
+        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        alternativas: [
+            {
+                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                afirmacao: "afirmação"
+            },
+            {
+                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                afirmacao: "afirmação"
+            }
+        ]
+    },
+    {
+        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        alternativas: [
+            {
+                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                afirmacao: "afirmação"
+            },
+            {
+                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
                 afirmacao: "afirmação"
             }
         ]
