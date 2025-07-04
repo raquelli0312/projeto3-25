@@ -14,7 +14,7 @@ const perguntas = [
             },
             {
                 texto: "B) Comprador(a) Impulsivo(a)",
-                afirmacao: "Você se sente atraído(a) por ofertas e muitas vezes compra mais do que planejava, especialmente itens que talvez não use antes que estraguem. Sua geladeira e despensa podem ter alguns "tesouros escondidos" que você esqueceu."
+                afirmacao: "Você se sente atraído(a) por ofertas e muitas vezes compra mais do que planejava, especialmente itens que talvez não use antes que estraguem. Sua geladeira e despensa podem ter alguns tesouros escondidos que você esqueceu."
             },
         ]
     },
@@ -45,7 +45,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "4. Como você lida com frutas, legumes e verduras que não estão "perfeitos" esteticamente?",
+        enunciado: "4. Como você lida com frutas, legumes e verduras que não estão perfeitos esteticamente?",
         alternativas: [
             {
                 texto: "A) Consumidor(a) Sem Preconceito",
